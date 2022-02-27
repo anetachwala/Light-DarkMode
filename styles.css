@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-container {
+  background: #ECFDFB;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main-container-dark {
+  background: rgb(32, 30, 30);
+  color: #C0FCF8;
+}
+
+.fa-circle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+}
+
+.fa-circle:hover {
+  cursor: pointer;
+}
+
+.card {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.fa-user-astronaut {
+  font-size: 200px;
+}
+
+.card__search-input {
+  width: 400px;
+  height: 30px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card__search-input-dark {
+  background: #716F6F;
+}
+
+.card__text {
+  font-size: 12px;
+}
+
+.card__text span {
+  font-weight: bold;
+  color: #00C9C3;
+}
